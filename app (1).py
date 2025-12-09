@@ -109,5 +109,3 @@ if st.button("Predict mood improvement"):
     st.success(f"Predicted mood improvement: {pred_mood:.1f}")
     st.info("Note: Low R2 means this simple model does not explain much variance; "
             "this is a demonstration of linear regression on the dataset.")
-
-streamlit run app.py

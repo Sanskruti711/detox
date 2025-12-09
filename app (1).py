@@ -21,7 +21,7 @@ import numpy as np
 # 1. Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("detox_data.csv")
+    df = pd.read_csv("detox_2.csv")
     return df
 
 df = load_data()
